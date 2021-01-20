@@ -25,7 +25,7 @@ $ sudo apt install python3-virtualenv
 python3 -m virtualenv venv
 ./venv/bin/activate
 ```
-# install django web framework
+#install django web framework
 ```sh
 pip install Django
 ```
