@@ -20,20 +20,24 @@ pip3 --version
 ```sh
 $ sudo apt install python3-virtualenv
 ```
-#create virtualenv
+# create virtualenv
 ```sh
 python3 -m virtualenv venv
+```
+# activate virtual environment
+```sh
 ./venv/bin/activate
 ```
-#install django web framework
+# install django web framework
 ```sh
 pip install Django
 ```
-#make django project
+# make django project
 ```sh
 django-admin startproject projectname
+cd projectname
 ```
-#runserver django web framework
+# runserver django web framework
 ```sh
 python manage.py runserver 0.0.0.0:8000
 ```
