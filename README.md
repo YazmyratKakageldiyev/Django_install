@@ -20,9 +20,12 @@ pip3 --version
 ```sh
 $ sudo apt install python3-virtualenv
 ```
-#create virtualenv```sh
-
+#create virtualenv
+```sh
 python3 -m virtualenv venv
 ./venv/bin/activate
+```
 # install Django web framework
+```sh
 pip install Django
+```
