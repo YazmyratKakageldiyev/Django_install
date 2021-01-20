@@ -10,7 +10,7 @@ $ sudo apt update
 $ sudo apt -y upgrade
 $ python3 -V
 ```
-# Install pip for Python
+# install pip for python
 ```sh
 $ sudo apt update
 $ sudo apt install python3-pip
@@ -25,7 +25,15 @@ $ sudo apt install python3-virtualenv
 python3 -m virtualenv venv
 ./venv/bin/activate
 ```
-# install Django web framework
+# install django web framework
 ```sh
 pip install Django
+```
+#make django project
+```sh
+django-admin startproject projectname
+```
+#runserver django web framework
+```sh
+python manage.py runserver 0.0.0.0:8000
 ```
